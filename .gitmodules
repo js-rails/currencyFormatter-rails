@@ -1,0 +1,3 @@
+[submodule "currencyFormatter.js"]
+	path = currencyFormatter.js
+	url = https://github.com/osrec/currencyFormatter.js
