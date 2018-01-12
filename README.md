@@ -30,11 +30,15 @@ Or install it yourself as:
 And then edit your app/assets/stylesheets/application.js file to look something like:
 ``` css
 /*
-*= require_self
+*= require jqeury
 *= require currencyFormatter
+*= require_self
 *= require_tree .
 */
 ```
+
+**currencyFormatter-rails is dependant on jQuer, so make sure you have it in your Gemfile.**
+
 
 ## Usage
 
