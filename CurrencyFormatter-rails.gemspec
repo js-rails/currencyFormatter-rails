@@ -9,15 +9,16 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tanvir hasan"]
   spec.email         = ["tanvir002700@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://www.rubygems.org"
+  spec.summary       = %q{This gem packages the js currencyFormatter.js plugin. So you never have to download a custom package through the web interface again.}
+  spec.description   = %q{CurrencyFormatter.js allows you to format numbers as currencies. It contains 155 currency definitions and 715 locale definitions out of the box. It handles unusually formatted currencies, such as the INR.}
+  spec.homepage      = "https://rubygems.org/gems/currencyFormatter-rails"
   spec.license       = "MIT"
+  spec.metadata      = { 'source_code_uri' => 'https://github.com/tanvir002700/currencyFormatter-rails' }
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
