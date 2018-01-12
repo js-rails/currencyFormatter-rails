@@ -1,7 +1,3 @@
 require "CurrencyFormatter/rails/version"
+require "CurrencyFormatter/rails/engine" if defined? Rails
 
-module CurrencyFormatter
-  module Rails
-    # Your code goes here...
-  end
-end
