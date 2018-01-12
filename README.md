@@ -1,8 +1,15 @@
 # CurrencyFormatter::Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/CurrencyFormatter/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Gem Version](https://badge.fury.io/rb/currencyFormatter-rails.svg)](https://rubygems.org/gems/currencyFormatter-rails) 
+[![Downloads](https://img.shields.io/gem/dt/currencyFormatter-rails.svg)](https://rubygems.org/gems/currencyFormatter-rails)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/tanvir002700/currencyFormatter-rails/master.svg)](https://github.com/tanvir002700/currencyFormatter-rails)
+[![license](https://img.shields.io/github/license/tanvir002700/currencyFormatter-rails.svg)](https://github.com/tanvir002700/currencyFormatter-rails/blob/master/LICENSE)
 
-TODO: Delete this and the text above, and describe your gem
+This gem packages the javascript currencyFormatter.js plugin. So you never have to download a custom package through the web interface again.
+
+CurrencyFormatter.js allows you to format numbers as currencies. It contains 155 currency definitions and 715 locale definitions out of the box. It handles unusually formatted currencies, such as the INR.
+
+See VERSIONS.md to see which versions of tabulator-rails bundle which versions of currencyFormatter.js.
 
 ## Installation
 
@@ -19,16 +26,19 @@ And then execute:
 Or install it yourself as:
 
     $ gem install CurrencyFormatter-rails
+    
+And then edit your app/assets/stylesheets/application.js file to look something like:
+``` css
+/*
+*= require_self
+*= require currencyFormatter
+*= require_tree .
+*/
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+View [CurrencyFormatter.js](https://osrec.github.io/currencyFormatter.js/) for complete useage information.
 
 ## Contributing
 
