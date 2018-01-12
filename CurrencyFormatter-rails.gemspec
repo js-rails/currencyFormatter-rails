@@ -1,10 +1,10 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "CurrencyFormatter/rails/version"
+require "currencyFormatter/rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "CurrencyFormatter-rails"
+  spec.name          = "currencyFormatter-rails"
   spec.version       = CurrencyFormatter::Rails::VERSION
   spec.authors       = ["tanvir hasan"]
   spec.email         = ["tanvir002700@gmail.com"]
