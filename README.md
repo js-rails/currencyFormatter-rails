@@ -5,7 +5,7 @@
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/tanvir002700/currencyFormatter-rails/master.svg)](https://github.com/tanvir002700/currencyFormatter-rails)
 [![license](https://img.shields.io/github/license/tanvir002700/currencyFormatter-rails.svg)](https://github.com/tanvir002700/currencyFormatter-rails/blob/master/LICENSE)
 
-This gem packages the javascript currencyFormatter.js plugin. So you never have to download a custom package through the web interface again.
+This gem packages the jQuery currencyFormatter.js plugin. So you never have to download a custom package through the web interface again.
 
 CurrencyFormatter.js allows you to format numbers as currencies. It contains 155 currency definitions and 715 locale definitions out of the box. It handles unusually formatted currencies, such as the INR.
 
@@ -30,11 +30,15 @@ Or install it yourself as:
 And then edit your app/assets/stylesheets/application.js file to look something like:
 ``` css
 /*
-*= require_self
+*= require jqeury
 *= require currencyFormatter
+*= require_self
 *= require_tree .
 */
 ```
+
+**currencyFormatter-rails is dependant on jQuer, so make sure you have it in your Gemfile.**
+
 
 ## Usage
 
